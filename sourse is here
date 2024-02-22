@@ -1,23 +1,28 @@
 #start for new
 res = 1
 while res == '1':
-    print("hello there. is a calculatr , lets see wha you want...")
+    print("hello there. is a calculatr , lets see what you want XD...")
     print()
     x = input("set here your frist number : ")
     z = input("set here your last number : ")
-    y = input("set here your fav cul . + or - or * or %  ")
+    y = input("set here your fav cul . + or - or * or %  : ")
     print("----")
-    print()
+    print("")
     if z == '*':
-        print("your answer is:",x * z)
+        print("your answer is:" ,x * z)
+        print("")
     elif z == '+':
-        print("your answer is:",x + z)
+        print("your answer is:" ,x + z)
+        print("")
     elif z == '-':
-        print("your answer is:",x - z)
+        print("your answer is:" ,x - z)
+        print("")
     elif z == '%':
-        print("your answer is:",x % z)
+        print("your answer is:" ,x % z)
+        print("")
     else:
-        print("error, wrong input...")
+        print("error, wrong input...  ")
+    print("--")
     res = input("wanna restart???? ... 1 : yes / 2 : no")
     if res == 2:
         exit("exit! ")
