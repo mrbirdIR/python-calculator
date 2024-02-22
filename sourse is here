@@ -1,0 +1,25 @@
+#start for new
+res = 1
+while res == '1':
+    print("hello there. is a calculatr , lets see wha you want...")
+    print()
+    x = input("set here your frist number : ")
+    z = input("set here your last number : ")
+    y = input("set here your fav cul . + or - or * or %  ")
+    print("----")
+    print()
+    if z == '*':
+        print("your answer is:",x * z)
+    elif z == '+':
+        print("your answer is:",x + z)
+    elif z == '-':
+        print("your answer is:",x - z)
+    elif z == '%':
+        print("your answer is:",x % z)
+    else:
+        print("error, wrong input...")
+    res = input("wanna restart???? ... 1 : yes / 2 : no")
+    if res == 2:
+        exit("exit! ")
+#end project
+        
