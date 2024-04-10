@@ -1,30 +1,47 @@
-#start for new
-res = 1
+#calcluator
+res = '1'
+point = 0
 while res == '1':
-    print("hello there. is a calculatr , lets see what you want XD...")
+    point += 1
+    out = 0
+    print("reset cheekpoint: ", point)
+    print("-------------")
+    print("welcome to my simple calcluator :D " , )
+    print(""" here you can choose what you want: 
+        1 = *
+        2 = +
+        3 = -""")
+    x = input("answer: ", )
+    print("understandable XD, ok next ask..." , )
+    y = int(input("input here ur first number:   "))
     print()
-    x = input("set here your frist number : ")
-    z = input("set here your last number : ")
-    y = input("set here your fav cul . + or - or * or %  : ")
-    print("----")
-    print("")
-    if z == '*':
-        print("your answer is:" ,x * z)
-        print("")
-    elif z == '+':
-        print("your answer is:" ,x + z)
-        print("")
-    elif z == '-':
-        print("your answer is:" ,x - z)
-        print("")
-    elif z == '%':
-        print("your answer is:" ,x % z)
-        print("")
+    z = int(input("input here your last number:  "))
+    print("""okie, wait when calcluator is thinking...""")
+    #import()
+    if x == '1':
+        y * z == out
+        print("answer is:",y, '*', z,"=",y*z)
+        print('EASSSYYYYYY')
+    elif x == '2':
+        print("answer is:", y + z)
+        print("niiiiceeeeee")
+    elif x == '3':
+        print("answer is:", y - z)
     else:
-        print("error, wrong input...  ")
-    print("--")
-    res = input("wanna restart???? ... 1 : yes / 2 : no")
+        print("error, wrong input, please try again")
+    print()
+    res = input("try again?   1 = yes / 2 = no   :")
+    print("""-------
+          ---------
+          ---------
+          ---------
+          --------
+          -------
+          -----
+          ---
+          --
+          -""")
     if res == 2:
-        exit("exit! ")
-#end project
+        exit()
+
         
